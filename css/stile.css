@@ -34,3 +34,34 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+.example-block{
+
+	font-size: 50px;
+	margin: 20px;
+	/*Управляет прозрачностью + невозможно взаимодействоать visibility: hidden;*/
+	/*Управляет прозрачностью (0-1) + можем взаимодействовать opacity: 0.8;*/
+	/*
+	box-shadow: 5px 5px 10px 5px #000, /*Внутрь блока inset 5px 5px 10px 5px #000;
+	padding: 15px;
+	border-radius: 30px;
+	*/
+	/*
+	outline: 10px solid #000;
+	*/
+	/*
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 5px solid #000;
+	*/
+}
+
+.example-string{
+	font-size: 50px;
+}
+
+.example-image{
+	border: 5px dotted #000;
+}
